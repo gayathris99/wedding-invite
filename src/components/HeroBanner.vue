@@ -3,7 +3,7 @@
     <div class="parallax">
       <div class="parallax-content q-pa-xl column items-center justify-center align-center">
         <div class="font-josefin fw-300 text-center">
-           G A Y A T H R I &nbsp; & &nbsp;  <br v-if="isMobile"/>S H A S H A N K
+           G A Y A T H R I &nbsp; & &nbsp; <template v-if="isMobile"><br/></template>S H A S H A N K
         </div>
         <div class="font-spectral style-italic q-mt-sm fs-20 fw-300">
           Are getting married

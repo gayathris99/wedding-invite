@@ -74,7 +74,7 @@ export default defineComponent({
   background-size: cover;
 
     @media only screen and (max-width: $breakpoint-xs-max) {
-      min-height: 400px;
+      min-height: 500px;
   }
 }
 .parallax-content {
